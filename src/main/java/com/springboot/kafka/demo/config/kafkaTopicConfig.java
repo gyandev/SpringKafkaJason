@@ -10,12 +10,12 @@ import org.springframework.kafka.config.TopicBuilder;
 public class kafkaTopicConfig {
 
 
-    /*@Bean
+    @Bean
     public NewTopic newTopic()
     {
         return TopicBuilder.name("Jason-topic")
-                .partitions(2)
+                .partitions(3)
                 .replicas(1)
                 .build();
-    }*/
+    }
 }

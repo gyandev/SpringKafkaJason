@@ -18,7 +18,7 @@ public class KafkaController {
         this.kafkaProducer = kafkaProducer;
     }
 
-    //http://localhost:8080/api/v1/kafka/publish
+    //http://localhost:8086/api/v1/kafka/publish
 
     @PostMapping("/publish")
     public ResponseEntity<String> publish(@RequestBody User data)
